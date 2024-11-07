@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        fieldset {
+            display: inline-block;
+        }
+        textarea {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>This is form</h1>
+        <form action="">
+            <label for="username">
+                Username
+                <input type="text" id="username" placeholder="Username">
+            </label>
+            <label for="email">
+                Email
+                <input type="email" id="email" placeholder="Email">
+            </label>
+            <label for="phone">
+                Phone
+                <input type="tel" id="phone" placeholder="Phone">
+            </label>
+            <label for="password">
+                Password
+                <input type="password" id="password" placeholder="Password">
+            </label>
+
+            <fieldset>
+                <legend>Radio Button</legend>
+                <label for="padma">
+                    <input type="radio" name="river" id="padma">Padma
+                </label>
+                <label for="jamuna">
+                    <input type="radio" name="river" id="jamuna">Jamuna
+                </label>
+                <label for="Meghna">
+                    <input type="radio" name="river" id="Meghna">Meghna
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Checkbox</legend>
+                <label for="bhola">
+                    <input type="checkbox" name="district" id="bhola">Bhola
+                </label>
+                <label for="bhaka">
+                    <input type="checkbox" name="district" id="bhaka">Dhaka
+                </label>
+                <label for="bogura">
+                    <input type="checkbox" name="district" id="bogura">Bogura
+                </label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Details</legend>
+                <textarea name="" id=""></textarea>
+            </fieldset>
+
+            <br>
+
+            <input type="number" name="" id="">
+
+            <br>
+
+            <input type="reset" name="" id="">
+            <input type="submit">
+        </form>
+    </section>
+</body>
+</html>
